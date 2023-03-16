@@ -1,10 +1,13 @@
 import React from 'react';
+import AnnouncementBar from './AnnouncementBar';
 
 function Header() {
   return (
-    <div className=' absolute flex py-8 px-16 space-between bg-transparent'>
+    <div className='absolute w-full text-xs'>
+        <AnnouncementBar />
+    <div className='flex py-8 px-16 items-center space-between bg-transparent'>
 
-        <div className='w-[150px]'>
+        <div className='w-[90px]'>
       <svg
       className='tds-icon tds-icon-logo-wordmark tds-site-logo-icon'
     viewBox="0 0 342 35" 
@@ -16,11 +19,20 @@ function Header() {
         ></path>
       </svg>
       </div>
-      <div>
-        Cars model list
+      <div className='flex-1 flex space-between justify-center gap-4 text-sm'>
+        <a href='#model3'>Model 3</a>
+        <a href='#modelY'>Model Y</a>
+        <a href='#modelS'>Model S</a>
+        <a href='#modelX'>Model X</a>
+        <a href='#solarPanels'>Solar Panels</a>
+        <a href='#solarRoofs'>Solar Roofs</a>
+        <a href='#accessories'>Accessories</a>
       </div>
-      <div>
-        Action button
+      <div className='flex justify-right gap-4 text-sm'>
+        <a>Shop</a>
+        <a>Account</a>
+        <a>Menu</a>
+      </div>
       </div>
     </div>
   );
