@@ -2,9 +2,11 @@ import React from 'react';
 
 function Header() {
   return (
-    <div>
+    <div className=' absolute flex py-8 px-16 space-between bg-transparent'>
+
+        <div className='w-[150px]'>
       <svg
-      className='tds-cion tds-icon-logo-wordmark tds-site-logo-icon'
+      className='tds-icon tds-icon-logo-wordmark tds-site-logo-icon'
     viewBox="0 0 342 35" 
       xmlns="http://www.w3.org/2000/svg"  
       >
@@ -13,6 +15,13 @@ function Header() {
         fill='currentColor'
         ></path>
       </svg>
+      </div>
+      <div>
+        Cars model list
+      </div>
+      <div>
+        Action button
+      </div>
     </div>
   );
 }
