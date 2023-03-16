@@ -7,7 +7,7 @@ export default function Home() {
     <div className=''>
       <Head>
         <title>Tesla Website Clone</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Header/>
       <HomeScreen/>

@@ -9,7 +9,7 @@ function Header() {
 
         <div className='w-[140px]'>
       <svg
-      className='tds-icon tds-icon-logo-wordmark tds-site-logo-icon'
+      className='tds-icon tds-icon-logo-wordMark tds-site-logo-icon'
     viewBox="0 0 342 35" 
       xmlns="http://www.w3.org/2000/svg"  
       >
