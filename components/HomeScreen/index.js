@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const HomeScreen = () => {
     return (
         <div className='h-screen overflow-y scroll snap-y snap-mandatory scroll-smooth'>
@@ -24,10 +25,12 @@ const HomeScreen = () => {
                 <button className='  bg-[#393c41] w-48 text-white py-1 px-4 rounded-3xl text-xs'>Custom Order</button>
                 <button className=' w-48  text-[#393c41] bg-white py-1 px-4 rounded-3xl text-xs'>Demo Drive</button>
             </div>
+            <a  href="#modelY" className='absolute bottom-4 animate-bounce'>
+            <div className='absolute bottom-4 animate-bounce'>
             <svg
             xmlns="http://ww.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="48"
+            height="33"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -37,6 +40,8 @@ const HomeScreen = () => {
             >
                 <polyline points="6 9 12 15 18 9"></polyline>
             </svg>
+            </div>
+            </a>
             </div>
         </div>
 
@@ -60,6 +65,23 @@ const HomeScreen = () => {
 
                 <button className=' w-48  text-[#393c41] bg-white py-1 px-4 rounded-3xl text-xs'>Demo Drive</button>
             </div>
+            <a  href="#modelS" className='fixed bottom-4 right-4 animate-bounce scroll-smooth'>
+            <div className='absolute animate-bounce'>
+            <svg
+            xmlns="http://ww.w3.org/2000/svg"
+            width="48"
+            height="33"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeLinecap='round'
+            strokeLinejoin='round'
+            >
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+            </div>
+            </a>
             </div>
         </div>
          {/* Model S */}
