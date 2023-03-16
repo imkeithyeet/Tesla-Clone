@@ -18,9 +18,9 @@ const HomeScreen = () => {
             </div>
             {/* Button div */}
             <div className=' flex text-center mb-24 gap-16'>
-                <button className='border-2'>Custom Order</button>
-                
-                <button className='border-2'>Existing inventory</button>
+                <button className='border-2 py-2 px-4 rounded-3xl text-sm'>Custom Order</button>
+
+                <button className='border-2 py-2 px-4 rounded-3xl text-sm'>Demo Drive</button>
             </div>
             </div>
         </div>
